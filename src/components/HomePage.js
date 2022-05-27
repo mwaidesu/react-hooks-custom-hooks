@@ -3,7 +3,7 @@ import About from "./About";
 import ArticleList from "./ArticleList";
 
 function HomePage() {
-  // fetch data for posts
+  // fetch data for postss
   const [isLoaded, setIsLoaded] = useState(false);
   const [posts, setPosts] = useState([]);
 
